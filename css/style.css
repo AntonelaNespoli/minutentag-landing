@@ -40,7 +40,7 @@ header {
   top: 0;
   width: 100%;
 }
-header > img {
+header > a > img {
   margin-top: 42px;
 }
 header > h1.title {
@@ -52,7 +52,7 @@ header > h1.title {
   text-align: center;
   width: 65%;
 }
-header > button.careers {
+header > a.careers {
   background-color: var(--white);
   border: 2px solid var(--white);
   border-radius: 5px;
@@ -64,6 +64,7 @@ header > button.careers {
   line-height: 24px;
   padding: 5px 22px;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Body */
@@ -117,18 +118,18 @@ section.body > section.solutions > article.solution > div.text > p {
   line-height: 24px;
   min-height: 72px;
 }
-section.body > section.solutions > article.solution > div.text > button {
+section.body > section.solutions > article.solution > div.text > a {
   background: var(--white);
   border: 2px solid var(--text);
   border-radius: 5px;
   color: var(--text);
   font-size: 14px;
   font-weight: 600;
-  height: 35px;
   letter-spacing: -0.5px;
   line-height: 24px;
+  padding: 7.5px 84px;
   text-align: center;
-  width: 247px;
+  text-decoration: none;
 }
 section.body > section.solutions > article.solution > img {
   height: 150px;
@@ -167,24 +168,24 @@ section.body > section.values > article.value > p {
   font-weight: 400;
   letter-spacing: 0.08px;
   line-height: 24px;
-  margin: 8px 0;
+  margin: 8px 0 20px 0;
 }
 section.body > section.values > article.value > p.bold {
   font-weight: 600;
   margin: 8px 0 -8px 0;
 }
-section.body > section.values > article.value > button {
+section.body > section.values > article.value > a {
   background: transparent;
   border: 2px solid var(--text);
   border-radius: 5px;
   color: var(--text);
   font-size: 14px;
   font-weight: 600;
-  height: 35px;
   letter-spacing: 0.09px;
   line-height: 24px;
   margin: 10px 0;
-  width: 114px;
+  padding: 7.5px 14.5px;
+  text-decoration: none;
 }
 
 /* Footer */
@@ -207,6 +208,9 @@ footer > section.rrss {
   justify-content: space-between;
   margin-bottom: 41px;
   width: 115px;
+}
+footer > section.rrss > div {
+  cursor: pointer;
 }
 footer > small {
   bottom: 14px;
