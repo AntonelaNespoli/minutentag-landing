@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Taking"
+    ],
+    "cSpell.enableFiletypes": [
+        "!css"
     ]
 }
